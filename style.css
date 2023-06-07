@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Alterando a cor, a posição e o tamnho do quadrado maior */
+.qmaior{
+    background-color: #62374e;
+    width: 500px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-template-areas: "p1 p2" "p3 p4";
+ }
+
+ /* Alterando a cor, a posição e o tamanho dos quadrados menores */
+
+ .qp1{
+     background-color: #fdc57b;
+     height: 60px;
+     width: 60px;
+     margin: 70px;
+ }
+
+ .qp2{
+    background-color: #fdc57b;
+    height: 60px;
+    width: 60px;
+    margin: 70px;
+}
+
+.qp3{
+    background-color: #fdc57b;
+    height: 60px;
+    width: 60px;
+    margin: 70px;
+}
+
+.qp4{
+    background-color: #fdc57b;
+    height: 60px;
+    width: 60px;
+    margin: 70px;
+}
